@@ -37,7 +37,7 @@ body .card-container .card {
   width: -moz-min-content;
   width: min-content;
   border-radius: 20px;
-  filter: drop-shadow(6px 7px 0px hsl(0, 0%, 7%));
+  box-shadow: 6px 7px 0px hsl(0, 0%, 7%), -1px -1px 0px hsl(0, 0%, 7%);
 }
 body .card-container .card .card-image {
   height: 200px;

@@ -23,7 +23,7 @@ body{
       height: fit-content;
       width:min-content;
       border-radius: 20px;
-      filter: drop-shadow(6px 7px 0px $Black);
+      box-shadow: 6px 7px 0px $Black, -1px -1px 0px $Black;
 
       .card-image{
         height: 200px;
