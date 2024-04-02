@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: hsl(0, 0%, 7%);
+  font-family: figtree;
+  font-weight: 500;
+}
+* p {
+  font-size: 16px;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  height: 100vh;
+}
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+body .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .card-container .card {
+  background-color: hsl(0, 0%, 100%);
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-min-content;
+  width: min-content;
+  border-radius: 20px;
+  filter: drop-shadow(6px 7px 0px hsl(0, 0%, 7%));
+}
+body .card-container .card .card-image {
+  height: 200px;
+  width: 336px;
+  border-radius: 20px;
+  margin: 1.1rem 1.1rem 0.75rem 1.1rem;
+}
+body .card-container .card .card-content {
+  margin: 1.1rem 1rem 0.75rem 1.1rem;
+}
+body .card-container .card .card-content .card-topic {
+  background-color: hsl(47, 88%, 63%);
+  width: -moz-min-content;
+  width: min-content;
+  padding: 4px 12px;
+  border-radius: 5px;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+}
+body .card-container .card .card-content .card-date {
+  margin-bottom: 0.75rem;
+}
+body .card-container .card .card-content .card-heading {
+  font-size: 1.3em;
+  margin-bottom: 0.75rem;
+}
+body .card-container .card .card-content .card-heading a {
+  text-decoration: none;
+  font-weight: 800;
+}
+body .card-container .card .card-content .card-heading a:hover {
+  color: hsl(47, 88%, 63%);
+}
+body .card-container .card .card-content .card-info {
+  color: hsl(0, 0%, 50%);
+  margin-bottom: 0.75rem;
+}
+body .card-container .card .author-div {
+  margin: 0 1.1rem 1.5rem 1.1rem;
+  display: flex;
+  align-items: center;
+}
+body .card-container .card .author-div .user-pic {
+  height: 32px;
+  width: 32px;
+}
+body .card-container .card .author-div .author-name {
+  margin-left: 0.75rem;
+}/*# sourceMappingURL=main.css.map */
