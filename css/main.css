@@ -9,6 +9,9 @@
 * p {
   font-size: 1.111vw;
 }
+* h1 {
+  font-size: 1.481vw;
+}
 
 body {
   background-color: hsl(47, 88%, 63%);
@@ -58,7 +61,6 @@ body .card-container .card .card-content .card-date {
   margin-bottom: 0.75rem;
 }
 body .card-container .card .card-content .card-heading {
-  font-size: 1.3em;
   margin-bottom: 0.75rem;
 }
 body .card-container .card .card-content .card-heading a {
@@ -82,5 +84,6 @@ body .card-container .card .author-div .user-pic {
   width: 32px;
 }
 body .card-container .card .author-div .author-name {
+  font-weight: 800;
   margin-left: 0.75rem;
 }/*# sourceMappingURL=main.css.map */

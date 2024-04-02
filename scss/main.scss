@@ -49,7 +49,6 @@ body{
         }
 
         .card-heading{
-          font-size: 1.3em;
           margin-bottom: $card-content-margin;
 
           a {
@@ -76,6 +75,7 @@ body{
           width: 32px;
         }
         .author-name{
+          font-weight: weight(bold);
           margin-left: $card-content-margin;
         }
       }
